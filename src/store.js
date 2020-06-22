@@ -2,27 +2,39 @@ export const menuitems = ["Overview", "Trade", "Research"];
 
 export const sideBarItems = [
   {
-    id: "account-balance",
-    title: "Account Balance",
-    description: "Account Balance",
+    id: "holdings",
+    title: "Holdings",
+    description: "My Security Holdings",
     menuitems: "Overview"
   },
   {
-    id: "trade-activity",
-    title: "Trade Activity",
-    description: "TradeActivity",
+    id: "position",
+    title: "Position",
+    description: "Trade Positions",
     menuitems: "Overview"
   },
   {
     id: "user-profile",
-    title: "User Profile",
-    description: "User Profile",
+    title: "My Profile",
+    description: "My Profile",
     menuitems: "Overview"
   },
   {
-    id: "equity-",
+    id: "equity",
     title: "Equity",
     description: "Buy/Sell Equity",
+    menuitems: "Trade"
+  },
+  {
+    id: "fixed-income",
+    title: "Fixed Income",
+    description: "Buy/Sell Bonds/CDs",
+    menuitems: "Trade"
+  },
+  {
+    id: "etf",
+    title: "Exchange Traded Funds",
+    description: "Buy/Sell ETFs",
     menuitems: "Trade"
   },
   {

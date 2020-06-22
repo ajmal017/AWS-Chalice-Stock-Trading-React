@@ -1,12 +1,15 @@
 import React from "react";
-import AccountBalance from "../../containers/AccountBalance";
+import AccountHolding from "../../containers/AccountHolding";
+import DenseTable from "../../components/Table/DenseTable";
 
 export default ({ id }) => {
     let componentToRender = ""
     switch (id) {
-        case 'account-balance':
-            console.log("Account Balance comp being called");
-            componentToRender = <AccountBalance />;
+        case 'holdings':
+            componentToRender = <AccountHolding />;
+            break;
+        case 'position':
+            componentToRender = <DenseTable />;
             break;
         default:
             break;

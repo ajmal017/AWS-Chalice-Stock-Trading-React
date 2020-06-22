@@ -18,7 +18,7 @@ class AccountBalance extends Component {
             dataType: "json"
         };
 
-        fetch('http://127.0.0.1:8000/accountbalance/10001', options)
+        fetch('http://127.0.0.1:8000/accountbalance/373', options)
             .then(response => response.json())
             .then(data => {
                 this.setState({ AccountBalanceSeries: data })
